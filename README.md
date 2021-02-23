@@ -6,13 +6,13 @@ The Devops Challenge covers the aspect to build & pack the .NET 5 application as
 
 ## Build Pipeline
 
-- Using Windows 2019, the solution with be built and then it will do unit testing. Please Note, at the moment, one of the unit testing is failing hence I have "True" for continue on failure. As a practice I would have this unit test/code fixed before going to next stage, for this demo purpose, we will go ahead.
+- Using Windows 2019, the solution will be built, on success it will do unit testing. Please Note, at the moment, one of the unit testing is failing hence I have "True" for continue on failure. As a practice I would have this unit test/code fixed before going to next stage, for this demo purpose, we will go ahead.
 
 ![Build-Pipeline](Images/Build-Pipeline.png)
 
 - On Powershell task, we will build the docker image using powershell script, the name of this docker image is stored in variable on azure-pipeline.yml. Please note, this task is kind of not needed as for the next task we will be building it again and use from cache, but I just thought to demonstrate use of powershell here.
 
-- On Docker Build and Push task, it will use the conainer from powershell task, using variables.yml it will get the service connection name, the service connection is of Docker Registry type, and push it to ACR so different environment such SIT, PreProd, Production can pull the container from the ACR repo.
+- On Docker Build and Push task, it will use the conainer imgage generated from powershell task, using variables.yml it will get the service connection name, the service connection is of Docker Registry type, and push it to ACR so different environment such SIT, PreProd, Production can pull the container from the ACR repo.
 
 ![Service-Connection](Images/Service-Connection.png)
 
