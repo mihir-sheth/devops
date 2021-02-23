@@ -20,16 +20,17 @@ variables:
 steps:
 
   - task: DotNetCoreCLI@2
-    displayName: Build
+    displayName: Build Solution
 
   - task: DotNetCoreCLI@2
-    displayName: Test
+    displayName: Unit Test
     inputs:
       command: test
       projects: '**/*.csproj'
     continueOnError: true
 
   - task: PowerShell@2
+    displayName: Create Docker Image
     displayName: 'PowerShell Script'
     inputs:
       targetType: filePath
