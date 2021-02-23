@@ -31,7 +31,6 @@ steps:
 
   - task: PowerShell@2
     displayName: Create Docker Image
-    displayName: 'PowerShell Script'
     inputs:
       targetType: filePath
       filePath: $(System.DefaultWorkingDirectory)\build.ps1
