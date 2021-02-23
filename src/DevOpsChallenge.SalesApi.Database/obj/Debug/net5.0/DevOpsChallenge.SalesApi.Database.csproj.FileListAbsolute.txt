@@ -1,0 +1,15 @@
+C:\Users\mihir.sheth\Documents\Project\devops\src\DevOpsChallenge.SalesApi.Database\bin\Debug\net5.0\DevOpsChallenge.SalesApi.Database.deps.json
+C:\Users\mihir.sheth\Documents\Project\devops\src\DevOpsChallenge.SalesApi.Database\bin\Debug\net5.0\DevOpsChallenge.SalesApi.Database.runtimeconfig.json
+C:\Users\mihir.sheth\Documents\Project\devops\src\DevOpsChallenge.SalesApi.Database\bin\Debug\net5.0\DevOpsChallenge.SalesApi.Database.runtimeconfig.dev.json
+C:\Users\mihir.sheth\Documents\Project\devops\src\DevOpsChallenge.SalesApi.Database\bin\Debug\net5.0\DevOpsChallenge.SalesApi.Database.dll
+C:\Users\mihir.sheth\Documents\Project\devops\src\DevOpsChallenge.SalesApi.Database\bin\Debug\net5.0\ref\DevOpsChallenge.SalesApi.Database.dll
+C:\Users\mihir.sheth\Documents\Project\devops\src\DevOpsChallenge.SalesApi.Database\bin\Debug\net5.0\DevOpsChallenge.SalesApi.Database.pdb
+C:\Users\mihir.sheth\Documents\Project\devops\src\DevOpsChallenge.SalesApi.Database\obj\Debug\net5.0\DevOpsChallenge.SalesApi.Database.csprojAssemblyReference.cache
+C:\Users\mihir.sheth\Documents\Project\devops\src\DevOpsChallenge.SalesApi.Database\obj\Debug\net5.0\DevOpsChallenge.SalesApi.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mihir.sheth\Documents\Project\devops\src\DevOpsChallenge.SalesApi.Database\obj\Debug\net5.0\DevOpsChallenge.SalesApi.Database.AssemblyInfoInputs.cache
+C:\Users\mihir.sheth\Documents\Project\devops\src\DevOpsChallenge.SalesApi.Database\obj\Debug\net5.0\DevOpsChallenge.SalesApi.Database.AssemblyInfo.cs
+C:\Users\mihir.sheth\Documents\Project\devops\src\DevOpsChallenge.SalesApi.Database\obj\Debug\net5.0\DevOpsChallenge.SalesApi.Database.csproj.CoreCompileInputs.cache
+C:\Users\mihir.sheth\Documents\Project\devops\src\DevOpsChallenge.SalesApi.Database\obj\Debug\net5.0\DevOpsChallenge.SalesApi.Database.dll
+C:\Users\mihir.sheth\Documents\Project\devops\src\DevOpsChallenge.SalesApi.Database\obj\Debug\net5.0\ref\DevOpsChallenge.SalesApi.Database.dll
+C:\Users\mihir.sheth\Documents\Project\devops\src\DevOpsChallenge.SalesApi.Database\obj\Debug\net5.0\DevOpsChallenge.SalesApi.Database.pdb
+C:\Users\mihir.sheth\Documents\Project\devops\src\DevOpsChallenge.SalesApi.Database\obj\Debug\net5.0\DevOpsChallenge.SalesApi.Database.genruntimeconfig.cache
