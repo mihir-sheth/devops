@@ -1,6 +1,9 @@
 pr: none
 
-trigger: none
+trigger:
+  branches:
+    include:
+    - main
     
 pool:
   name: Azure Pipelines
@@ -41,36 +44,3 @@ steps:
       repository: $(CONTAINER_LABEL)
       Dockerfile: Dockerfile
       tags: latest
-      buildContext: DEVOPS
-
-#pool:
-#  name: Azure Pipelines
-#
-#steps:
-#- task: DotNetCoreCLI@2
-#  displayName: Build
-#
-#- task: DotNetCoreCLI@2
-#  displayName: Test
-#  inputs:
-#    command: test
-#    projects: '**/*.csproj'
-#  continueOnError: true
-#
-#- task: NuGetCommand@2
-#  displayName: 'Create Package'
-#  inputs:
-#    command: pack
-#
-#- task: PublishBuildArtifacts@1
-#  displayName: PublishArtifacts
-#
-#- task: DockerInstaller@0
-#  displayName: 'Install Docker 17.09.0-ce'
-#
-#- task: Docker@2
-#  displayName: buildAndPush
-#  inputs:
-#    containerRegistry: msacrconn
-#    repository: '$(Parameters.repository)'
-#    Dockerfile: DockerFile
