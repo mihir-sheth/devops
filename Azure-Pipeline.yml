@@ -30,8 +30,7 @@ steps:
     displayName: 'PowerShell Script'
     inputs:
       targetType: filePath
-      workingDirectory: DEVOPS
-      filePath: build.ps1
+      filePath: $(System.DefaultWorkingDirectory)\build.ps1
       arguments: -CONTAINER_LABEL $(CONTAINER_LABEL)
 
   - task: Docker@2
