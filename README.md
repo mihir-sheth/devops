@@ -6,7 +6,7 @@ The Devops Challenge covers the aspect to build & pack the .NET 5 application as
 
 ## Build Pipeline
 
-- Using Windows 2019, the solution will be built, on success it will do unit testing. Please Note, at the moment, one of the unit testing is failing hence I have "True" for continue on failure. As a practice I would have this unit test/code fixed before going to next stage, for this demo purpose, we will go ahead.
+- Using Windows 2019, the solution will be built, on success it will do unit testing. Please Note, at the moment, one of the unit test is failing hence I have "True" for continue on failure. As a practice I would have this unit test/code fixed before going to next stage, for this demo purpose, we will go ahead.
 
 ![Build-Pipeline](Images/Build-Pipeline.png)
 
